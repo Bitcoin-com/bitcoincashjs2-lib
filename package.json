@@ -1,6 +1,6 @@
 {
-  "name": "bitcoincashjs-lib",
-  "version": "4.0.1",
+  "name": "@bitcoin-doc-com/bitcoincashjs2-lib",
+  "version": "4.1.0",
   "description": "Client-side Bitcoin JavaScript library",
   "main": "./src/index.js",
   "engines": {
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitcoinjs/bitcoinjs-lib.git"
+    "url": "git+https://github.com/Bitcoin-com/bitcoincashjs2-lib.git"
   },
   "files": [
     "src"
@@ -33,13 +33,13 @@
     "bech32": "^1.1.2",
     "bigi": "^1.4.0",
     "bip66": "^1.1.0",
-    "bitcoincash-ops": "Bitcoin-com/bitcoincash-ops#2.0.0",
+    "bitcoincash-ops": "github:Bitcoin-com/bitcoincash-ops#2.0.0",
     "bs58check": "^2.0.0",
     "create-hash": "^1.1.0",
     "create-hmac": "^1.1.3",
     "ecurve": "^1.0.0",
     "merkle-lib": "^2.0.10",
-    "pushdata-bitcoin": "Bitcoin-com/pushdata-bitcoin#1.2.1",
+    "pushdata-bitcoin": "github:Bitcoin-com/pushdata-bitcoin#1.2.1",
     "randombytes": "^2.0.1",
     "safe-buffer": "^5.0.1",
     "typeforce": "^1.11.3",
@@ -53,12 +53,23 @@
     "cb-http-client": "^0.2.0",
     "coinselect": "^3.1.1",
     "dhttp": "^2.3.5",
-    "minimaldata": "Bitcoin-com/minimaldata#1.2.0",
+    "minimaldata": "github:Bitcoin-com/minimaldata#1.2.0",
     "mocha": "^3.1.0",
     "nyc": "^10.3.2",
     "proxyquire": "^1.8.0",
     "sinon": "^1.17.7",
     "standard": "^9.0.2"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bitcoin-com/bitcoincashjs2-lib/issues"
+  },
+  "homepage": "https://github.com/Bitcoin-com/bitcoincashjs2-lib#readme",
+  "directories": {
+    "test": "test"
+  },
+  "author": "Chris Troutner <trout@bitcoin.com>",
+  "contributors": [
+    "Gabriel Cardona <gabriel@bitcoin.com>"
+  ]
 }
