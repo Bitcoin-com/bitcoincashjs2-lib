@@ -47,7 +47,7 @@
     "wif": "^2.0.1"
   },
   "devDependencies": {
-    "async": "^2.0.1",
+    "async": "^2.6.4",
     "bip39": "^2.3.0",
     "bs58": "^4.0.0",
     "cb-http-client": "^0.2.0",
