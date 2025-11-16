@@ -58,7 +58,7 @@
     "nyc": "^10.3.2",
     "proxyquire": "^1.8.0",
     "sinon": "^1.17.7",
-    "standard": "^9.0.2"
+    "standard": "^17.1.2"
   },
   "license": "MIT",
   "bugs": {
